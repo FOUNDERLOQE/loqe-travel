@@ -126,8 +126,6 @@ export default {
       },
     },
 
-    /* ---------- Added for LOQE app flow ---------- */
-
     {
       name: 'tripType',
       title: 'Trip Type',
@@ -179,7 +177,7 @@ export default {
 
         { name: 'liveNow', title: 'Live Now', type: 'string' },
         { name: 'livingSituation', title: 'Living Situation', type: 'string' },
-        { name: 'careerCurrentFocus', title: 'Career / Current Focus', type: 'text' },
+        { name: 'careerCurrentFocus', title: 'Career Current Focus', type: 'text' },
         { name: 'typicalEscapeWindows', title: 'Typical Escape Windows', type: 'string' },
         { name: 'averageTripLengthPreference', title: 'Average Trip Length Preference', type: 'string' },
         { name: 'recentMajorLifeChanges', title: 'Recent Major Life Changes', type: 'text' },
@@ -204,7 +202,7 @@ export default {
 
         { name: 'accommodationMustHaves', title: 'Accommodation Must Haves', type: 'text' },
         { name: 'absoluteDealBreakers', title: 'Absolute Deal Breakers', type: 'text' },
-        { name: 'preferredAirlinesLoyaltyPrograms', title: 'Preferred Airlines / Loyalty Programs', type: 'text' },
+        { name: 'preferredAirlinesLoyaltyPrograms', title: 'Preferred Airlines Loyalty Programs', type: 'text' },
         { name: 'dietaryPreferencesRestrictions', title: 'Dietary Preferences Restrictions', type: 'text' },
         { name: 'healthMobilityConsiderations', title: 'Health Mobility Considerations', type: 'text' },
 
@@ -233,10 +231,10 @@ export default {
             {
               type: 'object',
               fields: [
-                { name: 'year', title: 'Year', type: 'string' },
-                { name: 'majorLifeChanges', title: 'Major Life Changes', type: 'text' },
-                { name: 'updatedTravelPreferences', title: 'Updated Travel Preferences', type: 'text' },
-                { name: 'upcomingImportantDates', title: 'Upcoming Important Dates', type: 'text' },
+                { name: 'year', type: 'string', title: 'Year' },
+                { name: 'majorLifeChanges', type: 'text', title: 'Major Life Changes' },
+                { name: 'updatedTravelPreferences', type: 'text', title: 'Updated Travel Preferences' },
+                { name: 'upcomingImportantDates', type: 'text', title: 'Upcoming Important Dates' },
               ],
             },
           ],
